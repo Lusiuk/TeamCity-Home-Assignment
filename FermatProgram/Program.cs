@@ -17,7 +17,7 @@ namespace FermatProgram
             else
             {
                 //Если a^n + b^n != c^n, то теорема не нарушена
-                WriteLine("Теорема НЕ НАРУШЕНА!");
+                WriteLine("Теорема НЕ НАРУШЕНА!")
             }
         }
         
