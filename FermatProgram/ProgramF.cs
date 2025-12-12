@@ -2,7 +2,7 @@
 
 namespace FermatProgram
 {
-    class Program
+    public class ProgramF
     {
         static void Main()
         {
@@ -12,12 +12,12 @@ namespace FermatProgram
             if (IsFermatSatisfied(a, b, c, n))
             {
                 //Если a^n + b^n = c^n, то теорема нарушена (только для n > 2)
-                WriteLine("Теорема НАРУШЕНА!")
+                WriteLine("Теорема НАРУШЕНА!");
             }
             else
             {
                 //Если a^n + b^n != c^n, то теорема не нарушена
-                WriteLine("Теорема НЕ НАРУШЕНА!")
+                WriteLine("Теорема НЕ НАРУШЕНА!");
             }
         }
         
