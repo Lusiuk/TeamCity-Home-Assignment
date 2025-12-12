@@ -12,7 +12,7 @@ namespace FermatProgram
             if (IsFermatSatisfied(a, b, c, n))
             {
                 //Если a^n + b^n = c^n, то теорема нарушена (только для n > 2)
-                WriteLine("Теорема НАРУШЕНА!");
+                WriteLine("Теорема НАРУШЕНА!")
             }
             else
             {
